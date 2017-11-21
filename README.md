@@ -17,7 +17,8 @@ If the above link doesn't work you can use this [one](https://chromedriver.stora
 
 ## 3. EXTRACT FROM ZIP AND PLACE THE chromedriver.exe IN THE SAME DIRECTORY
 
-**Place the chromedriver.exe in the same directory as your Temp.py so that you won't get dumb errors!.**
+**Place the chromedriver.exe in the same directory as your Temp.py so that you won't get dumb errors!**
+
 ![Here should be a image](https://github.com/MilanDonhowe/Weather-Info-Grabber/blob/master/Images/samedirectroy.png)
 
 *Or alternatively, you can put it in your path environmental variable if you're savvy enough to know how to do so.*
@@ -35,12 +36,14 @@ At this point you should be able to run the program via the commandline like so:
 ![Image here](https://github.com/MilanDonhowe/Weather-Info-Grabber/blob/master/Images/Codeee.PNG)
 
 **This example will collect Weather data (windspeed, temperature, etc) from New York every one hundred seconds and then put the data into a csv file.**
+
 ![Another Image](https://github.com/MilanDonhowe/Weather-Info-Grabber/blob/master/Images/Working.PNG)
+
 **If all is well your console might look something like this after a couple minutes.**
 
 ***If you want to stop the program press ctrl+c.***
 
-**To open/view the CSV file contents you will have to use either Microsoft excel or Openoffice Calc or other equivalent**
+**To open/view the CSV file contents you will have to use either Microsoft excel or Openoffice Calc or other equivalent.**
 
 If you manage to pry open the csv file the contents should look something like this: 
 
