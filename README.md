@@ -24,11 +24,18 @@ If the above link doesn't work you can use this [one](https://chromedriver.stora
 ## 4. Usage
 
 Now create a Temp.py with my github code or get the zip file and extract it in your working directory.
+
+The program can be run like so: 
+'''
+Temp.py "Location here" [Seconds per running]
+'''
+
 At this point you should be able to run the program via the commandline like so:
 ![Image here](https://github.com/MilanDonhowe/Weather-Info-Grabber/blob/master/Images/Codeee.PNG)
 **This example will collect Weather data (windspeed, temperature, etc) from New York every one hundred seconds and then put the data into a csv file.**
 ![Another Image](https://github.com/MilanDonhowe/Weather-Info-Grabber/blob/master/Images/Working.PNG)
 **If all is well your console might look something like this after a couple minutes.**
+***If you want to stop the program press ctrl+c***
 
 ## COMMON ERRORS
 
