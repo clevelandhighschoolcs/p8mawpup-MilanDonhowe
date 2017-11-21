@@ -1,5 +1,4 @@
-# Weather-Info-Grabber
-# How to install tutorial:
+# Weather-Info-Grabber installation tutorial:
 
 ## 1. Install Dependencies
 Firstly, boot up whichever virtual environment you are using and install the following libraries via the following pip commands:
