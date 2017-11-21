@@ -36,7 +36,13 @@ At this point you should be able to run the program via the commandline like so:
 **This example will collect Weather data (windspeed, temperature, etc) from New York every one hundred seconds and then put the data into a csv file.**
 ![Another Image](https://github.com/MilanDonhowe/Weather-Info-Grabber/blob/master/Images/Working.PNG)
 **If all is well your console might look something like this after a couple minutes.**
-***If you want to stop the program press ctrl+c***
+***If you want to stop the program press ctrl+c.***
+
+**To open/view the CSV file contents you will have to use either Microsoft excel or Openoffice Calc or other open source equivalent**
+
+If you manage to pry open the csv file the contents should look something like this: 
+
+![Csv contents image here](https://github.com/MilanDonhowe/Weather-Info-Grabber/blob/master/Images/Coolio.PNG)
 
 ## COMMON ERRORS
 
