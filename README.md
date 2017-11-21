@@ -13,7 +13,7 @@ pip install splinter
 Since my program uses Splinter instead of urllib2 or requests you need a driver to use the browser.
 My program is tailored to use chrome so you need to install the chrome driver [here](https://chromedriver.storage.googleapis.com/2.33/chromedriver_win32.zip).
 
-If the above link doesn't work you can use this [one](https://chromedriver.storage.googleapis.com/index.html?path=2.33/).
+If the above link doesn't work you can use this [one](https://chromedriver.storage.googleapis.com/index.html?path=2.33/)(Get the win32 executable).
 
 ## 3. PUT THE chromedriver.exe IN THE SAME DIRECTORY
 
