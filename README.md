@@ -27,9 +27,9 @@ If the above link doesn't work you can use this [one](https://chromedriver.stora
 Now create a Temp.py with my github code or get the zip file and extract it in your working directory.
 
 The program can be run like so: 
-'''
+```
 Temp.py "Location here" [Seconds per running]
-'''
+```
 
 At this point you should be able to run the program via the commandline like so:
 ![Image here](https://github.com/MilanDonhowe/Weather-Info-Grabber/blob/master/Images/Codeee.PNG)
