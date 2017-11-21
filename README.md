@@ -32,12 +32,14 @@ At this point you should be able to run the program via the commandline like so:
 
 ## COMMON ERRORS
 
-**Module not found**
+**Module not found**:
+
 If your module isn't getting picked up it's more than likely due to the fact you're not specifying your virtual environment specific version of python.  You can fix this just by adding "python " to the beginning of your command line argument like so:
 ![Image of commandline argument with python at beginning](https://github.com/MilanDonhowe/Weather-Info-Grabber/blob/master/Images/Sweettt.PNG)
 If you continue having errors try re-running the pip commands.
  
-**Permission for CSV not granted**
+**Permission for CSV not granted**:
+
 I've run into this weird bug where I can't alter an existing csv file occasionally.  You can fix this just by deleting the csv file and the program will remake the csv file again and function properly.
  
 
