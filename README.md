@@ -1,5 +1,5 @@
 # Weather-Info-Grabber
-**How to install**
+# How to install tutorial:
 
 ## 1. Install Dependencies
 Firstly, boot up whichever virtual environment you are using and install the following libraries via the following pip commands:
@@ -18,6 +18,7 @@ If the above link doesn't work you can use this [one](https://chromedriver.stora
 ## 3. PUT THE chromedriver.exe IN THE SAME DIRECTORY
 
 **Place the chromedriver.exe in the same directory as your Temp.py so that you won't get dumb errors!.**
+![Here should be a image](https://github.com/MilanDonhowe/Weather-Info-Grabber/blob/master/Images/samedirectroy.png)
 
 *Or alternatively, you can put it in your path environmental variable if you're savvy enough to know how to do so.*
 
