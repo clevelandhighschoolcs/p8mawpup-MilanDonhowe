@@ -34,7 +34,7 @@ At this point you should be able to run the program via the commandline like so:
 
 **Module not found**
 If your module isn't getting picked up it's more than likely due to the fact you're not specifying your virtual environment specific version of python.  You can fix this just by adding "python " to the beginning of your command line argument like so:
-![Image of commandline argument with python at beginning](https://github.com/MilanDonhowe/Weather-Info-Grabber/blob/master/Images/Working.PNG)
+![Image of commandline argument with python at beginning](https://github.com/MilanDonhowe/Weather-Info-Grabber/blob/master/Images/Sweettt.PNG)
 If you continue having errors try re-running the pip commands.
  
 **Permission for CSV not granted**
