@@ -28,7 +28,7 @@ Now create a Temp.py with my github code or get the zip file and extract it in y
 
 The program can be run like so: 
 ```
-Temp.py "Location here" [Seconds per running]
+Temp.py "Location here" [Seconds before running again]
 ```
 
 At this point you should be able to run the program via the commandline like so:
