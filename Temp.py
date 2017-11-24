@@ -1,7 +1,7 @@
 # YOU NEED CHROME DRIVER IN YOUR PATH ENVIRONMENT VARIABLE FOR THIS PROGRAM TO WORK
 # Find what the tempature is
 # Usage: temp.py "location" seconds
-# Example: temp.y "Portland Oregon" 40
+# Example: temp.py "Portland Oregon" 40
 #  > Would get weather data for Portland Oregon every 40 seconds.
 
 import pandas as pd
