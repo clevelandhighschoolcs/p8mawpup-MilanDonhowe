@@ -41,7 +41,7 @@ At this point you should be able to run the program via the commandline like so:
 
 
 
-<span style="background-color: #FFFF00">***If you want to stop the program press ctrl+c.***</span>
+<mark style="background-color: #FFFF00">***If you want to stop the program press ctrl+c.***</mark>
 
 **To open/view the CSV file contents you will have to use either Microsoft excel or Openoffice Calc or other equivalent.**
 
