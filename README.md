@@ -43,7 +43,7 @@ At this point you should be able to run the program via the commandline like so:
 
 ***If you want to stop the program press ctrl+c.***
 
-**To open/view the CSV file contents you will have to use either Microsoft excel or Openoffice Calc or other equivalent.**
+**To open/view the CSV file contents you will have to use something like Microsoft excel or Openoffice Calc.**
 
 If you manage to pry open the csv file the contents should look something like this: 
 
