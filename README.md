@@ -1,66 +1,66 @@
-# Weather-Info-Grabber installation tutorial
+# Minimum.py - Detect changes in a website.
+***(This was a high school assignment.)***
 
-## 1. Install Dependencies
-Firstly, boot up whichever virtual environment you are using and install the following libraries via the following pip commands:
-```
-pip install pandas
-pip install splinter
-```
+# Getting started
+## .exe or .py
+There are two methods of using my program, using chromedriver.exe and Minimum.exe or using the Minimum.py and chrome.exe with dependencies.
 
-## 2. Download chromedriver.exe
+# Minimum.exe
 
-Since my program uses Splinter instead of urllib2 or requests you need a driver to use the browser.
-My program is tailored to use chrome so you need to install the chrome driver [here](https://chromedriver.storage.googleapis.com/2.33/chromedriver_win32.zip).
+## 1. Setup (.exe)
 
-If the above link doesn't work you can use this [one](https://chromedriver.storage.googleapis.com/index.html?path=2.33/) (get the win32 zip).
+![Image of what to download](https://github.com/MilanDonhowe/Weather-Info-Grabber/blob/master/Images/ExeDrive.PNG)
 
-## 3. EXTRACT FROM ZIP AND PLACE THE chromedriver.exe IN THE SAME DIRECTORY
+Download both the minimum executable and chromedriver executable.
 
-**Place the chromedriver.exe in the same directory as your Temp.py so that you won't get dumb errors!**
+![Image of what it should look like](https://github.com/MilanDonhowe/Weather-Info-Grabber/blob/master/Images/ExeDirect.PNG)
 
-![Here should be a image](https://github.com/MilanDonhowe/Weather-Info-Grabber/blob/master/Images/samedirectroy.png)
+Place them both into the same directory.
 
-*Or alternatively, you can put it in your path environmental variable if you're savvy enough to know how to do so.*
+## 2. Usage (.exe)
 
-## 4. Usage
+```Minimum.exe [url] [seconds]```
 
-Now create a Temp.py with my github code or get the zip file and extract it in your working directory.
+Make sure to run the executable through the command line to pass it arguments.  
+The first parameter will tell the program which url to monitor while the second parameter will set the interval (time between checks) for the program to operate on.
 
-The program can be run like so: 
-```
-Temp.py "Location here" [Seconds before running again]
-```
+**Example**
 
-At this point you should be able to run the program via the commandline like so:
-![Image here](https://github.com/MilanDonhowe/Weather-Info-Grabber/blob/master/Images/Codeee.PNG)
-
-**This example will collect Weather data (windspeed, temperature, etc) from New York every one hundred seconds and then put the data into a csv file.**
-
-**If all is well your console might look something like this after a couple minutes.**
-![Another Image](https://github.com/MilanDonhowe/Weather-Info-Grabber/blob/master/Images/Working.PNG)
+![Example image here](https://github.com/MilanDonhowe/Weather-Info-Grabber/blob/master/Images/UsageExe.PNG)
 
 
 
-***If you want to stop the program press ctrl+c.***
+# Minimum.py
 
-**To open/view the CSV file contents you will have to use something like Microsoft excel or Openoffice Calc.**
+## 1. Setup (.py)
+```pip install splinter```
 
-If you manage to pry open the csv file the contents should look something like this: 
+Download the .py file **and** the chromedriver.exe.  (may require unzipping a file or two)
 
-![Csv contents image here](https://github.com/MilanDonhowe/Weather-Info-Grabber/blob/master/Images/Coolio.PNG)
+![Visual aid](https://github.com/MilanDonhowe/Weather-Info-Grabber/blob/master/Images/PyDrive.PNG)
 
-## COMMON ERRORS
+**Make sure to place both files into the same directory.**
 
-**Module not found**:
+![Visual aid](https://github.com/MilanDonhowe/Weather-Info-Grabber/blob/master/Images/PypDrive.png)
 
-If your module isn't getting picked up it's more than likely due to the fact you're not specifying your virtual environment specific version of python.  You can fix this just by adding "python " to the beginning of your command line argument like so:
-![Image of commandline argument with python at beginning](https://github.com/MilanDonhowe/Weather-Info-Grabber/blob/master/Images/Sweettt.PNG)
-If you continue having errors try re-running the pip commands.
- 
-**Permission for CSV not granted**:
+## 2. Usage (.py)
 
-I've run into this weird bug where I can't alter an existing csv file occasionally.  You can fix this just by deleting the csv file and the program will remake the csv file again and function properly.
- 
+The usage for the .py version is mostly identical to the .exe.
 
+```Minimum.py [url] [seconds]```
+
+Make sure to run the .py file through the command line to pass it arguments.  
+The first parameter will tell the program which url to monitor while the second parameter will set the interval (time between checks) for the program to operate on.
+
+![Visual aid](https://github.com/MilanDonhowe/Weather-Info-Grabber/blob/master/Images/PypDrive.png)
+
+# Built with
+* [Python 2.7.14](https://www.python.org/downloads/)
+* [Splinter 0.7.7](https://splinter.readthedocs.io/en/latest/)
+* [chromedriver.exe 2.33](https://sites.google.com/a/chromium.org/chromedriver/)
+* [Pyinstaller](http://www.pyinstaller.org/)
+
+# Acknowledgements
+A lot of this code which my program uses is derived from the wonderful article, ["Mastering Python Web Scraping: Get Your Data Back"](https://hackernoon.com/mastering-python-web-scraping-get-your-data-back-e9a5cc653d88) by the talented [Lauren Glass](https://hackernoon.com/@laurenjglass9).
 
 
